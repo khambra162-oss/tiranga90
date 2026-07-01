@@ -1,10 +1,106 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+    color:#333;
+}
+
+.hero p{
+    font-size:20px;
+    margin-top:20px;
+    color:#666;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#0d6efd;
+    color:white;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+footer{
+    margin-top:80px;
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>My first GitHub Pages website.</p>
+
+<header>
+<h2>My Professional Website</h2>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="login.html">Login</a>
+<a href="register.html">Register</a>
+</nav>
+
+<div class="hero">
+<h1>Welcome</h1>
+<p>This is my first professional GitHub Pages website.</p>
+
+<a class="btn" href="login.html">Get Started</a>
+</div>
+
+<footer>
+© 2026 My Website. All Rights Reserved.
+</footer>
+
 </body>
 </html>
+```
