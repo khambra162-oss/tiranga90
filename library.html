@@ -1,0 +1,138 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Library</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+.library{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.game-card{
+    background:#1e293b;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 0 10px rgba(0,0,0,.25);
+}
+
+.game-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #00e5ff;
+}
+
+.thumb{
+    height:160px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:60px;
+    background:#0f172a;
+}
+
+.content{
+    padding:20px;
+}
+
+.content h3{
+    margin-bottom:10px;
+    color:#fff;
+}
+
+.content p{
+    color:#cbd5e1;
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+.play-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#00e5ff;
+    color:#000;
+    font-weight:bold;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🎮 Game Library</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="library.html">Library</a>
+<a href="profile.html">Profile</a>
+<a href="leaderboard.html">Leaderboard</a>
+</nav>
+
+<div class="library">
+
+<div class="grid">
+
+<div class="game-card">
+<div class="thumb">🧩</div>
+<div class="content">
+<h3>Puzzle Master</h3>
+<p>Solve challenging puzzles and improve your logic.</p>
+<button class="play-btn">Play Demo</button>
+</div>
+</div>
+
+<div class="game-card">
+<div class="thumb">🏃</div>
+<div class="content">
+<h3>Runner Rush</h3>
+<p>Run, jump and avoid obstacles in this arcade game.</p>
+<button class="play-btn">Play Demo</button>
+</div>
+</div>
+
+<div class="game-card">
+<div class="thumb">🎨</div>
+<div class="content">
+<h3>Color Match</h3>
+<p>Match colors to earn virtual points.</p>
+<button class="play-btn">Play Demo</button>
+</div>
+</div>
+
+<div class="game-card">
+<div class="thumb">🔢</div>
+<div class="content">
+<h3>Number Challenge</h3>
+<p>Test your speed with fun number puzzles.</p>
+<button class="play-btn">Play Demo</button>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer style="text-align:center;padding:20px;">
+© 2026 Tiranga90 Game Zone
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+```
