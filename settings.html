@@ -1,0 +1,157 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Settings</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.setting-card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 15px rgba(0,229,255,.20);
+}
+
+.setting-card h2{
+    margin-bottom:15px;
+    color:#00e5ff;
+}
+
+.setting-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+    border-bottom:1px solid #374151;
+}
+
+.setting-item:last-child{
+    border-bottom:none;
+}
+
+button{
+    background:#00e5ff;
+    color:#000;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#00bcd4;
+}
+
+select{
+    padding:8px;
+    border-radius:6px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>⚙️ Settings</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="games.html">Games</a>
+<a href="profile.html">Profile</a>
+<a href="leaderboard.html">Leaderboard</a>
+<a href="rewards.html">Rewards</a>
+<a href="settings.html">Settings</a>
+</nav>
+
+<div class="container">
+
+<div class="setting-card">
+
+<h2>Account</h2>
+
+<div class="setting-item">
+<span>Player Name</span>
+<strong>Player One</strong>
+</div>
+
+<div class="setting-item">
+<span>Email</span>
+<strong>player@example.com</strong>
+</div>
+
+</div>
+
+<div class="setting-card">
+
+<h2>Preferences</h2>
+
+<div class="setting-item">
+<span>Theme</span>
+
+<select>
+<option>Dark</option>
+<option>Light</option>
+</select>
+
+</div>
+
+<div class="setting-item">
+<span>Notifications</span>
+<button>Enabled</button>
+</div>
+
+<div class="setting-item">
+<span>Language</span>
+
+<select>
+<option>English</option>
+<option>Hindi</option>
+</select>
+
+</div>
+
+</div>
+
+<div class="setting-card">
+
+<h2>Security</h2>
+
+<div class="setting-item">
+<span>Change Password</span>
+<button>Update</button>
+</div>
+
+<div class="setting-item">
+<span>Logout</span>
+<button>Logout</button>
+</div>
+
+</div>
+
+</div>
+
+<footer style="text-align:center;padding:20px;">
+© 2026 Tiranga90 Game Zone
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+```
