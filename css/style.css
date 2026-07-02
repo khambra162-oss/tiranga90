@@ -3,81 +3,88 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 body{
-    background:#f4f7fb;
-    color:#333;
+    background:#0b1020;
+    color:#fff;
 }
 
 header{
-    background:#0d6efd;
-    color:white;
-    padding:20px;
+    background:#111827;
     text-align:center;
+    padding:20px;
+    font-size:28px;
+    color:#00e5ff;
 }
 
 nav{
-    background:#222;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    background:#1f2937;
     padding:15px;
-    text-align:center;
 }
 
 nav a{
-    color:white;
+    color:#fff;
     text-decoration:none;
-    margin:0 15px;
     font-weight:bold;
 }
 
 nav a:hover{
-    color:#ffd700;
+    color:#00e5ff;
 }
 
-.login-box{
-    width:380px;
-    max-width:90%;
-    margin:60px auto;
-    background:white;
-    padding:30px;
-    border-radius:10px;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
+.games{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
 }
 
-.login-box h1{
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
     text-align:center;
-    margin-bottom:20px;
+    transition:0.3s;
+    border:1px solid #334155;
 }
 
-.login-box input{
-    width:100%;
-    padding:12px;
-    margin:10px 0;
-    border:1px solid #ccc;
-    border-radius:6px;
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #00e5ff;
 }
 
-.login-box button{
-    width:100%;
-    padding:12px;
-    background:#0d6efd;
-    color:white;
+.card h2{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#cbd5e1;
+    margin-bottom:15px;
+}
+
+button{
+    background:#00e5ff;
+    color:#000;
     border:none;
-    border-radius:6px;
+    padding:10px 20px;
+    border-radius:8px;
     cursor:pointer;
-    font-size:16px;
+    font-weight:bold;
 }
 
-.login-box button:hover{
-    background:#084fc7;
+button:hover{
+    background:#00bcd4;
 }
 
 footer{
-    background:#111;
-    color:white;
     text-align:center;
     padding:20px;
-    margin-top:50px;
+    background:#111827;
+    margin-top:30px;
 }
 ```
